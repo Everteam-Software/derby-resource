@@ -1,0 +1,40 @@
+= Derby Resource
+
+A tomcat listener to start Derby as a network resource on a Tomcat server.
+May also be used as a JNDI resource.
+
+== Build
+
+Buildr is required to build this program. Install buildr and type buildr -T from the command line to see the tasks available.
+
+== CI build
+
+A CI build is available on hudson.intalio.org.
+
+== Releases
+
+Releases are pushed to the Maven2 repository on intalio.org:
+http://www.intalio.org/public/maven2
+
+== Documentation
+
+See http://oss.intalio.com/buildr4osgi
+
+http://intalio.github.com/buildr4osgi is the cutting edge documentation if you work against the trunk.
+
+== License
+
+Copyright (C) 2010 Intalio, Inc.
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.

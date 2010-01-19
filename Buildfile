@@ -1,4 +1,4 @@
-VERSION_NUMBER = "1.4"
+VERSION_NUMBER = "1.5-SNAPSHOT"
 
 repositories.remote << "http://www.ibiblio.org/maven2/"
 

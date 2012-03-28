@@ -1,13 +1,14 @@
 VERSION_NUMBER = "1.5-SNAPSHOT"
 
 repositories.remote << "http://www.ibiblio.org/maven2/"
+repositories.remote << "http://repo1.maven.org//maven2/"
 
 repositories.release_to[:username] ||= "release"
 repositories.release_to[:url] ||= "sftp://www.intalio.org/var/www-org/public/maven2"
 repositories.release_to[:permissions] ||= 0664
 
-DERBY = "org.apache.derby:derbynet:jar:10.4.2.0"
-TOMCAT = "tomcat:catalina:jar:5.5.9"
+DERBY = "org.apache.derby:derbynet:jar:10.8.2.2"
+TOMCAT = "org.apache.tomcat:catalina:jar:6.0.35"
 
 desc "Tomcat resource adapter for Derby database"
 define "derby-tomcat-resource" do

@@ -1,6 +1,6 @@
 require "install.rb"
 
-VERSION_NUMBER = "1.7"
+VERSION_NUMBER = "1.8-SNAPSHOT"
 
 desc "Tomcat resource adapter for Derby database"
 define "derby-tomcat-resource" do
